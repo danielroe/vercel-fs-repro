@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "overrides": {},
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "(?<url>/.*)",
+      "dest": "/isr?url=$url"
+    }
+  ]
+}

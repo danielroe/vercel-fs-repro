@@ -1,0 +1,10 @@
+{
+  "name": "vercel-fs-repro",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "deploy:index-404": "npx vercel deploy --prebuilt --prod index-404"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.1"
+}
